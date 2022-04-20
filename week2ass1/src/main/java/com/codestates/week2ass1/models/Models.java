@@ -1,4 +1,4 @@
-package com.codestates.bta;
+package com.codestates.week2ass1.models;
 
 public class Models {
     private String name;
@@ -12,7 +12,7 @@ public class Models {
         this.message = message;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
@@ -24,7 +24,7 @@ public class Models {
         this.message = message;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 }

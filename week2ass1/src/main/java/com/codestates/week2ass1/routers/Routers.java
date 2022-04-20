@@ -1,5 +1,6 @@
-package com.codestates.bta;
+package com.codestates.week2ass1.routers;
 
+import com.codestates.week2ass1.handlers.Handlers;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
@@ -17,6 +18,6 @@ public class Routers {
     public RouterFunction<ServerResponse> route(Handlers handlers) {
         return RouterFunctions
                 .route(GET("/hello")
-                .and(accept(MediaType.APPLICATION_JSON)), handlers::helloHandler);
+                        .and(accept(MediaType.APPLICATION_JSON)), handlers::helloHandler);
     }
 }
