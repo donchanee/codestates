@@ -1,3 +1,22 @@
-### README
+## sayHello
+- https://github.com/donchanee/sayHello-tuto
 
-![image](https://user-images.githubusercontent.com/42461455/163939202-f0be1784-3318-48b5-86da-2492b70a9217.png)
+#### 요청 URL
+GET localhost:8080/hello?name=$name
+
+> {
+    "to": "$name", 
+    "job": "개발자 $name",
+    "message": "hello $name"
+}
+
+## infoService
+- https://github.com/donchanee/infoService-tuto
+
+#### 요청 URL
+
+GET localhost:8081/job?name=$name
+
+> {
+    "job": "개발자 $name",
+}
